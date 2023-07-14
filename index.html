@@ -4,7 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./styles.css" />
     <title>Calculator</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="display">
+          <div class="display__history"></div>
+          <div class="display__result"></div>
+        </div>
+        <div class="buttons">
+          <div class="buttons__row">
+            <button class="buttons__clear">C</button>
+            <button class="buttons__backspace">⌫</button>
+            <button class="buttons__number">0</button>
+          </div>
+          <div class="buttons__row">
+            <button class="buttons__number">7</button>
+            <button class="buttons__number">8</button>
+            <button class="buttons__number">9</button>
+          </div>
+          <div class="buttons__row">
+            <button class="buttons__number">4</button>
+            <button class="buttons__number">5</button>
+            <button class="buttons__number">6</button>
+          </div>
+          <div class="buttons__row">
+            <button class="buttons__number">1</button>
+            <button class="buttons__number">2</button>
+            <button class="buttons__number">3</button>
+          </div>
+          <div class="buttons__row">
+            <button class="buttons__operator">-</button>
+            <button class="buttons__operator">+</button>
+            <button class="buttons__operator">×</button>
+          </div>
+          <div class="buttons__row">
+            <button class="buttons__operator">÷</button>
+            <button class="buttons__number">.</button>
+            <button class="buttons__equal">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
